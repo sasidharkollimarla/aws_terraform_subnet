@@ -3,8 +3,8 @@ provider "aws" {
 }
 
 #============== create an S3 bucket to store the state file in
-resource "aws_s3_bucket" "terraform-remote-test" {
-    bucket = "terraform-state-remote-test"
+resource "aws_s3_bucket" "terraform-remote-test-sasi" {
+    bucket = "terraform-state-remote-test-sasi"
  
     versioning {
       enabled = true
