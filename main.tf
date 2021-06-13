@@ -14,9 +14,9 @@ resource "aws_s3_bucket" "terraform-remote-test" {
       prevent_destroy = true
     }
  
-    tags {
-      Name = "S3 Remote Terraform State Store"
-    }      
+    #tags {
+     # Name = "S3 Remote Terraform State Store"
+    #}      
 }
 
 #================ State File Backend ==================
