@@ -1,8 +1,8 @@
 variable "aws_region" {
-  default = "ap-south-1"
+  default = "us-east-1"
 }
 variable "vpc_id" {
-  default = "vpc-ea1cdf81"
+  default = "vpc-f313848e"
 }
 variable "cidr_block_public-subnet-1" {
   default = "172.31.2.0/20"
