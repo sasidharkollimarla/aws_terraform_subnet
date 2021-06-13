@@ -1,5 +1,5 @@
 provider "aws" {
-    Region = "{var.aws_region}"
+    region = "{var.aws_region}"
 }
 
 #============== create an S3 bucket to store the state file in
